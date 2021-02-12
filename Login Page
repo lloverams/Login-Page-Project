@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<div class="container">
+  <aside class="login">
+    <header class="header">
+      <h1>Keyhub</h1>
+    </header>
+    <section class="login-form">
+      <form>
+        <button class="btn active">Login</button>
+        <button class="btn in-active">Sign Up</button>
+        <fieldset>
+          <input type="text" placeholder="example@email.com">
+          <input type="password" placeholder="Password">
+          <a href="#">Don't remember your password?</a>
+          <button class="btn btn-primary">
+            Log In
+          </button>
+        </fieldset>
+      </form>
+      <ul class="feature-list">
+        <li><i class="far fa-clock"></i>Track certificate expiration dates</li>
+        <li><i class="fas fa-bug"></i>Check potential vulnerabilities</li>
+        <li><i class="fas fa-shield-alt"></i>Detect policy violationa</li>
+      </ul>
+    </section>
+  </aside>
+  <main class="call-to-action">
+    <header class="header">
+      <h2>Certificate Lifecycle Management On Autopilot</h2>
+      <p>Keyhub helps IT professionals discover, organize, and track TLS/SSL certificates, so nothing falls off the radar.</p>
+    </header>
+  </main>
+</div>
+
+</html>
+<style>
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+html,
+body {
+  font-size: 18px;
+  line-height: 1.618;
+  font-family: sans-serif;
+  color: #444;
+  
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  
+}
+
+fieldset,
+button {
+  border: 0;
+  
+}
+
+/* layout of login section provided */
+.login {
+  min-width: 500px;
+  height: 100%;
+  padding: 30px;
+  
+}
+
+
+/* layout of call-to-action section provided */
+.call-to-action {
+  width: calc(100% - 500px);
+  height: 100%;
+  background: rgb(24, 48, 89);
+  color: white;
+  padding: 0 20px;
+  
+}
+.btn-primary
+{
+  background-color:lightgreen;
+  
+  
+}
+.call-to-action{
+  text-align:center;
+  heigh:310px;
+  padding:100px
+}
+.login{
+  text-align:center;
+  heigh:310px;
+  padding:100px
+}
+
+</style>
